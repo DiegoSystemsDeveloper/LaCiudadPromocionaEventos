@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="./scripts/smooth-scroll.min.js"></script>
+    <script src="./scripts/animacion.js"></script>
+
+    <title>Eventos en Medellin</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar">
+        <div class="container">
+            <a class="navbar-brand" data-scroll href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="icon ion-md-menu"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#eventos" id="btn-eventos">Eventos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#login" id="btn-login">Soy promotor</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link"
+                            href="https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=navurl://9f4d831d4acc9c77d23708d0b0389119"
+                            id="contact">Contacto</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#acercade" id="btn-acercade">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="parallax" id="panorama">
+        <div class="container">
+            <div class="content-center topmargin-lg">
+                <h1 class="topmargin-lg">Bienvenido a la ciudad de la Eterna Primavera</h1>
+                <p class="topmargin-lg">
+                    Este es el sitio preferido por lo paisas para salir a disfrutar de los eventos que se realizan en la
+                    ciudad
+                </p>
+                <a href="#eventos" class="btn btn-light topmargin-sm" id="btn-eventos">Comenzar <i
+                        class="icon ion-md-arrow-dropright-circle"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="parallax" id="eventos">
+        <div class="container-fluid">
+            <div class="content-center">
+                <h2>
+                    Nuestros Eventos
+                </h2>
+            </div>
+            <div class="container">
+                <div class="eventos-container level-1">
+                    <div class="eventos-details">
+                        <a href="#">
+                            <h2>Deportivos</h2>
+                            <p>Disfruta de los mejores eventos deportivos de la ciudad</p>
+                        </a>
+                    </div>
+                    <a href="#"><img src="../public/images/deportivo.jpg" class="img-fluid" alt="evento 1"></a>
+
+                </div>
+
+                <div class="eventos-container level-2">
+                    <div class="eventos-details">
+                        <a href="#">
+                            <h2>Comunales</h2>
+                            <p>Vive las mejores experiencias en las comunas de la ciudad</p>
+                        </a>
+                    </div>
+                    <a href="#"><img src="../public/images/sociales.jpg" class="img-fluid" alt="evento 1"></a>
+                </div>
+
+                <div class="eventos-container level-3">
+                    <div class="eventos-details">
+                        <a href="#">
+                            <h2>Sociales</h2>
+                            <p>La gente paisa sin duda alguna de las mejores que hay</p>
+                        </a>
+                    </div>
+                    <a href="#"><img src="../public/images/comuna.jpg" class="img-fluid" alt="evento 1"></a>
+                </div>
+
+                <div class="eventos-container level-1">
+                    <div class="eventos-details">
+                        <a href="#">
+                            <h2>Musicales</h2>
+                            <p>Podras encontrar los ultimos conciertos que se realizaran en la ciudad</p>
+                        </a>
+                    </div>
+                    <a href="#"><img src="../public/images/musicales.jpg" class="img-fluid" alt="evento 1"></a>
+                </div>
+
+                <div class="eventos-container level-2">
+                    <div class="eventos-details">
+                        <a href="#">
+                            <h2>Extremos</h2>
+                            <p>La adrenalina se toma las calles de la eterna primavera</p>
+                        </a>
+                    </div>
+                    <a href="#"><img src="../public/images/extremo.PNG" class="img-fluid" alt="evento 1"></a>
+                </div>
+
+                <div class="eventos-container level-3">
+                    <div class="eventos-details">
+                        <a href="">
+                            <h2>Gastronomicos</h2>
+                            <p style="color: white">No nos olvidamos de los amantes de las comidas</p>
+                        </a>
+                    </div>
+                    <a href="#"><img src="../public/images/gastronomico.png" class="img-fluid" alt="evento 1"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="parallax" id="login">
+        <div class="container-fluid login">
+            <div class="content-center">
+                <h2>Iniciar sesión</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12"></div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <form action="#panorama">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Usuario</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Ingresa tu usuario">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Contraseña">
+                        </div class="topmargin-lg">
+                        <label></label>
+                        <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                        <div>
+                            <a href="./registro.html">
+                                <p>¿Aún No Estas Registrado?</p>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="parallax topmargin-lg" id="acercade">
+        <div class="container-fluid">
+            <div class="content-center">
+                <h2>
+                    Acerca De Nosotros
+                </h2>
+                <p>
+                    Somos estudiantes de la Universidad de Medellin que creamos este sitio con el fin de que personas
+                    interesadas en cada uno de los eventos que ofrece la ciudad puedan enterarse de una forma mucho
+                    mas facil y organizada con el respaldo de la secretaria de turismo de la ciudad
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
